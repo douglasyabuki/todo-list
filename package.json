@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "format": "prettier --write \"{app,components,lib,tests}/**/*.{js,jsx,ts,tsx,css}\"",
+    "format": "prettier --write \"{app,components,contexts,lib,tests}/**/*.{js,jsx,ts,tsx,css}\"",
     "lint": "eslint",
     "lint:fix": "eslint . --fix",
     "test": "node --test tests/*.test.mjs",
